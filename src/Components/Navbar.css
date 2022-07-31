@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+
+}
+
+
+.navbar .navbarItems{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbarItems h1{
+	font-size: 40px;
+	color: blue;
+
+}
+
+
+.navbarItems .navbarInput input{
+	padding: 15px;
+	width: 800px;
+	background: #EDF2F7;
+	outline: none;
+	border: none;
+
+	
+}
+
+.navbarInput .SearchIcon{
+	padding: 15px;
+	color: orange;
+	border-left: solid 1px green;
+}
+
+.navbarInput{
+	display: flex;
+	background: #EDF2F7;
+	outline: none;
+}
+
+.navbarInput:hover {
+	outline: none;
+}
+
+.navbarLinks{
+	width: 10%;
+align-items: center;
+	display: flex;
+	justify-content: space-around;
+		
+}
+
+.navbarLinks .moonIcon{
+	font-size: 25px;
+	color: gray;
+}
+
+.navbarLinks .addIcon{
+	font-size: 35px;
+	color: white;
+	background-color: rgb(45, 43, 43);
+	border-radius: 10px;
+}
+
+.navbarLinks .logOutIcon{
+	font-size: 35px;
+	color: rgb(40, 31, 31);
+	border-radius: 10px;
+}
